@@ -195,7 +195,7 @@ to exit vim type esc and ZZ.
 
 In hyper type
 ```
-$ git clone https://github.com/zdharma/fast-syntax-highlighting.git \\
+git clone https://github.com/zdharma/fast-syntax-highlighting.git \
   ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 ```
 
