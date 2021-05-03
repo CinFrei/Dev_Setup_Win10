@@ -37,7 +37,7 @@ You should have the latest windows updates installed. To make sure, click on  t
 Click on windows-logo, type powershell, open powershell with right-click as admin.
 
 ```
-$ § Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+$ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 ```
@@ -48,7 +48,7 @@ $ choco feature enable -n allowGlobalConfirmation
 
 In admin powershell
 ```
-$ choco install wsl-ubuntu-2004
+$ choco install wsl -y
 ```
 
 ## 4. Install Ubuntu
